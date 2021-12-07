@@ -504,7 +504,7 @@ footer {
 
 .fadeUpZoom {
 
-    animation: fadeUpZoom .7s cubic-bezier(.17,.85,.438,.99);
+    animation: fadeUpZoom .6s linear;
     /* transform: translateY(0) scale(1); */
 }
 
