@@ -122,7 +122,7 @@ header {
     top: 0;
     right: 0;
     opacity: 0.03;
-    background-image: url('../images/shape-12.svg');
+    background-image: url('https://separateweb.com/niwax-demo/images/shape/shape-12.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +166,7 @@ header {
     line-height: 74px;
     font-weight: 800;
     margin-bottom: 30px;
-    background: url('../images/bg-gradient.jpg');
+    background: url('https://separateweb.com/niwax-demo/images/shape/bg-gradient.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -476,11 +476,13 @@ footer {
     width: 100%;
 }
 
+
 .pre-text {
-    width: 50%;
+    width: 60%;
     margin: 20px auto;
     font-size: 24px;
     color: #6a6a8e;
+    line-height: 30px;
 }
 
 @keyframes loader {
