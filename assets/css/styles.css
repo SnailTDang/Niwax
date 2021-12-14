@@ -76,6 +76,8 @@ header {
     box-shadow: 0 10px 15px 0 rgb(56 0 189 / 30%);
 }
 
+
+
 .circle {
     background-color: #fff3;;
     display: block;
@@ -494,39 +496,5 @@ footer {
     }
     100% {
         box-shadow:0 0 0 0 transparent
-    }
-}
-
-.fadeInUp {
-    transform: translateY(0);
-    transition: all .5s ease-in-out;
-}
-
-.fadeUpZoom {
-
-    animation: fadeUpZoom .6s linear;
-    /* transform: translateY(0) scale(1); */
-}
-
-@keyframes fadeUpZoom {
-    0% {
-        opacity: 0;
-        transform: translateY(-120px) scale3d(0,0,0);
-    }
-    20% {
-        opacity: .5;
-        transform: translateY(-180px) scale3d(0.2,0.2,0.2);
-    }
-    40% {
-        opacity: .5;
-        transform: translateY(-100px) scale3d(0.3,0.3,0.3);
-    }
-    70% {
-        opacity: .5;
-        transform: translateY(50px) scale3d(0.7,0.7,0.7);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0px) scale3d(1,1,1);
     }
 }
